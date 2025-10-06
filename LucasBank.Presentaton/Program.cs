@@ -47,6 +47,9 @@ namespace LucasBank.Presentaton
                 Console.WriteLine("4.Funds Transfer");
                 Console.WriteLine("5.Funds Transfer Statement");
                 Console.WriteLine("0.Exit");
+
+                Console.WriteLine("Enter your choice:");
+                mainMenuChoice = Convert.ToInt32(Console.ReadLine());
             }
             else
             {
